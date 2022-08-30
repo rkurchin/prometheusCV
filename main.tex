@@ -1,6 +1,6 @@
 \documentclass{prometheus_cv}
 \usepackage[utf8]{inputenc}
-\usepackage[a4paper, total={5.8in, 10in}, top=2cm]{geometry}		% width=5.3in, height=10in, top margin=2cm on each page
+\usepackage[a4paper, total={5.9in, 10in}, top=2cm]{geometry}		% width=5.3in, height=10in, top margin=2cm on each page
 
 \usepackage{xcolor}																				  % define some colors
 %\definecolor{highlight}{HTML}{283559}
@@ -46,50 +46,42 @@
 \thispagestyle{empty}					% Turn off header and footer for the first page
 \pagestyle{fancy}			 		% For the rest of the pages switch to the fancy page style defined just above the document begin
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% TITLE %%%%%%%%%%%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \vspace*{-1cm}
 \centering 
 \input{title.tex}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% EDUCATION %%%%%%%%%%%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\vspace*{0.2cm}
 \section{Education}
 \input{education.tex}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% PUBLICATIONS %%%%%%%%%%%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Past Research Positions}
+\input{research.tex}
+
+\section{Teaching Experience, Preparation, and Recognition}
+\input{teaching.tex}
+
 \section{Publications}
 \input{publications.tex}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% HONORS and SCHOLARSHIPS %%%%%%%%%%%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Research Software Development}
+\input{software.tex}
+
 \section{Honors}
 \input{honors.tex}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% SKILLS %%%%%%%%%%%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Skills}
-\input{skills.tex}
+\section{Presentations}
+\subsection{Invited Talks}
+\input{talks_invited.tex}
 
+\subsection{Contributed Talks}
+\input{talks_contrib.tex}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% SERVICE %%%%%%%%%%%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Poster Presentations}
+\input{posters.tex}
+
 \section{Service To The Scientific Community}
 \input{service}
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%% EXTRAS %%%%%%%%%%%% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Extracurricular Activities}
-\input{extra.tex}
+\section{Other Skills and Activities}
+\input{skills.tex}
 
 \end{document}
