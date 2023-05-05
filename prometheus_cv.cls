@@ -25,9 +25,10 @@
 		\vspace*{-.7ex}\hspace*{-1.9cm}\footnotesize #1
 	\end{minipage}
 	\raggedright
-		
+
 	\begin{small}
-		#4
+          \vspace{-0.5mm}
+	  #4
 	\end{small}
 }
 
