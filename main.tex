@@ -46,12 +46,13 @@
 \thispagestyle{empty}					% Turn off header and footer for the first page
 \pagestyle{fancy}			 		% For the rest of the pages switch to the fancy page style defined just above the document begin
 
-\vspace*{-1cm}
+\vspace*{-0.8cm}
 \centering 
 \input{title.tex}
 
 %\vspace{-3mm}
 \section{Education}
+\def\edsep{-1.5mm}
 \input{education.tex}
 
 %\vspace{-3mm}
@@ -72,6 +73,8 @@
 \input{publications.tex}
 
 \section{Presentations}
+\def\talksep{-2mm}
+\def\talkyearsep{-1mm}
 \subsection{Invited Talks}
 \input{talks_invited.tex}
 
@@ -84,7 +87,6 @@
 \section{Service To The Scientific Community}
 \input{service}
 
-\vspace{-3mm}
 \section{Other Skills and Activities}
 \input{skills.tex}
 
