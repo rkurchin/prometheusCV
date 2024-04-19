@@ -1,0 +1,44 @@
+\input{preamble}
+
+\begin{document}
+\thispagestyle{empty}					% Turn off header and footer for the first page
+\pagestyle{fancy}			 		% For the rest of the pages switch to the fancy page style defined just above the document begin
+
+\vspace*{-1cm}
+\centering 
+\input{title.tex}
+
+\vspace{-3mm}
+\section{Education}
+\vspace{-1mm}
+\def\edsep{-2.7mm}
+\input{education.tex}
+
+\vspace{-2.5mm}
+\section{Selected Past Research Positions}
+\input{research_2p.tex}
+
+\vspace{-2.5mm}
+\section{Selected Honors}
+\vspace{-1mm}
+\input{honors_2p.tex}
+
+\vspace{-3mm}
+\section{Research Software Development}
+\vspace{-1mm}
+\input{software_2p.tex}
+
+\vspace{-2.5mm}
+\section{Selected Publications}
+\input{publications_2p.tex}
+
+\section{Selected Invited Talks}
+\def\talksep{-2.5mm}
+\def\talkyearsep{-1mm}
+\input{talks_invited_2p.tex}
+
+\vspace{-2.5mm}
+\section{Selected Service}
+\input{service_2p.tex}
+
+\end{document}
